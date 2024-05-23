@@ -1,0 +1,6 @@
+{
+  "localizationFilePath": "./locales/en.json",
+  "languages": ["es", "fr", "de"],
+  "apiKey": "YOUR_API_KEY",
+  "outputDir": "./localizations"
+}

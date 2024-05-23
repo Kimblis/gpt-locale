@@ -1,0 +1,33 @@
+{
+  "name": "gpt-locale",
+  "version": "1.0.0",
+  "description": "Localisations powered by AI",
+  "main": "index.js",
+  "bin": {
+    "generate-localizations": "./bin/generate.js",
+    "init-localization-config": "./bin/init-config.js"
+  },
+  "scripts": {
+    "build": "generate-localizations"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kimblis/gpt-locale.git"
+  },
+  "keywords": [
+    "i18n",
+    "localisations",
+    "gpt",
+    "translations",
+    "translate"
+  ],
+  "author": "Edgaras Masilionis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kimblis/gpt-locale/issues"
+  },
+  "homepage": "https://github.com/Kimblis/gpt-locale#readme",
+  "dependencies": {
+    "axios": "^1.7.2"
+  }
+}
